@@ -10,11 +10,11 @@ import java.util.Iterator;
 public class MusicCollection
 {
     // An ArrayList for storing the file names of music files.
-    private ArrayList<MusicInfo> files;
+    private ArrayList<MusicInfo> files = new  ArrayList<MusicInfo>();
     //favorite musics
-    private ArrayList<MusicInfo> favFiles;
+    private ArrayList<MusicInfo> favFiles = new  ArrayList<MusicInfo>();
     // A player for the music files.
-    private MusicPlayer player;
+    private MusicPlayer player = new MusicPlayer();
 
     /**
      * this method is for adding a new favourite file to the favourite list
